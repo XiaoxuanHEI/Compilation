@@ -1,0 +1,10 @@
+CONST
+IDENT (result, this, super inclus)
+ADD
+SUB
+MULT
+DIV
+AFFECT -> :=, affectation
+COMP -> les opérateurs de comparaison (<, >, <=, >=, ==, !=)
+
+Les mots-clefs (object, var, def, is, override, extends, class, new, return, if, then, else) ont une règle particulière : leur token porte leur nom, en majuscule : le mot-clef class a pour token CLASS

@@ -1,0 +1,13 @@
+class Test (var x : Integer, var y : Integer) is
+{
+    def Test (var x : Integer, var y : Integer) is { }
+    def plus() : Integer := x+y;
+}
+
+{
+    xPlusy: Test := new Test(1,2);
+    is 
+    xPlusy.plus().toString().print;
+    
+}
+
